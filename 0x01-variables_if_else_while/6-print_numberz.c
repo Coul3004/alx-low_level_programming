@@ -8,12 +8,11 @@
 
 int main(void)
 {
-	int n = 10;
-	int i;
+	int n;
 
-	for (i = 0; i < n; i++)
+	for (n = 0; n < 10; n++)
 	{
-		putchar(i);
+		putchar((n % 10) + '0');
 	}
 	putchar('\n');
 	return (0);
