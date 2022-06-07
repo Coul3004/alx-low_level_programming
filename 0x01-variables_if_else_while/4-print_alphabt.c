@@ -10,7 +10,7 @@ int main(void)
 {
 	char ch;
 
-	for (cha = 'a'; cha <= 'z'; cha++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch != 'q' && ch != 'e')
 		{
