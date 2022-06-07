@@ -8,12 +8,13 @@
 
 int main(void)
 {
-	char ch;
+	int n = 10;
+	int i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (i = 0; i < n; i++)
 	{
-		putchar(ch);
+		prinntf("%d", i);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
