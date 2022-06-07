@@ -11,9 +11,9 @@ int main(void)
 	int n = 10;
 	int i;
 
-	for (i = 0; i <= n; i++)
+	for (i = 0; i < n; i++)
 	{
-		putchar(i);
+		putchar("\d", i);
 	}
 	putchar('\n');
 	return (0);
