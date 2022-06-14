@@ -13,7 +13,7 @@ int x;
 n = strlen(s);
 if (n % 2 == 1)
 {
-x = n / 2 - 1;
+x = n / 2 + 1;
 }
 else
 {
