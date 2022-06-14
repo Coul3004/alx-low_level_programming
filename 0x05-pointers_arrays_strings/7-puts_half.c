@@ -19,7 +19,7 @@ else
 {
 x = n / 2;
 }
-for (i = n; i < n; i++)
+for (i = x; i < n; i++)
 {
 _putchar(s[i]);
 }
