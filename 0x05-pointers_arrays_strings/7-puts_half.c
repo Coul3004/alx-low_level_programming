@@ -11,7 +11,7 @@ int i;
 int n;
 int x;
 n = strlen(s);
-if (n % 2 == 0)
+if (n % 2 == 1)
 {
 x = n / 2 - 1;
 }
