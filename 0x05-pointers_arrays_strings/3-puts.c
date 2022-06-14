@@ -3,10 +3,10 @@
 
 /**
  * _puts - prints a string, followed by a new line, to stdout
- * @
+ * @str: string
  * Return: Always 0.
  */
-void _puts(char *s)
+void _puts(char *str)
 {
-return (puts(s));
+puts(str);
 }
