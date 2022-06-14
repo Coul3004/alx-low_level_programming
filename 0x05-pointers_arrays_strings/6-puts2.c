@@ -9,8 +9,15 @@
 void puts2(char *s)
 {
 int i;
-for (i % 2 == 0; i < 10; i++)
+int n;
+n = 0;
+while (s[n] != '\0')
 {
-puts2(s);
+n++;
 }
+for (i = n - 1; i >= 0; i--)
+{
+_putchar(s[i]);
+}
+_putchar('\n');
 }
