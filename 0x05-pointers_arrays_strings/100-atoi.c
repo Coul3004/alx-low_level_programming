@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 
 /**
  * is_numerical - check if it is a digit
@@ -38,5 +38,5 @@ else if (s[i] == '-')
 sign *= -1;
 }
 }
-return (number * sign);
+return (number *sign);
 }
