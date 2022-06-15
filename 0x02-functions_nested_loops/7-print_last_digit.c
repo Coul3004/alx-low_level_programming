@@ -5,6 +5,7 @@
  * @n: number
  * Return: abs n
  */
+
 int print_last_digit(int n)
 {
 int d;
