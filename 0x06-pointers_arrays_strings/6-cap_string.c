@@ -25,7 +25,7 @@ case ';':
 case '.':
 case '!':
 case '?':
-case '\"':
+case '"':
 case '(':
 case ')':
 case '{':
