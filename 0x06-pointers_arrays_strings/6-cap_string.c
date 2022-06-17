@@ -17,9 +17,6 @@ for (i = 0; s[0] != '\0'; i++)
 {
 switch (s[i])
 {
-case ' ':
-case '\t':
-case '\n':
 case ',':
 case ';':
 case '.':
@@ -30,6 +27,9 @@ case '(':
 case ')':
 case '{':
 case '}':
+case ' ':
+case '\t':
+case '\n':
 if (s[i + 1] > 96 && s[i + 1] < 123)
 {
 s[i + 1] = s[i + 1] - 32;
