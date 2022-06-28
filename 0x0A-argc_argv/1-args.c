@@ -8,9 +8,9 @@
  */
 int main(int argc, char *argv[])
 {
-int args;
+int sum;
 (void)argv;
-args = argc - 1;
-printf("%d\n", args);
+sum = argc - 1;
+printf("%d\n", sum);
 return (0);
 }
