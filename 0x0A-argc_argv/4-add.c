@@ -9,40 +9,25 @@
 */
 int main(int argc, char *argv[])
 {
-int i;
-int add = 0;
-int error = 0;
-char errorText[] = "Error";
+    int add = 0;
+    int res, i, j, k;
 
-if (argc > 1)
-{
-for (i = 1; i < argc; i++)
-{
-if (*argv[i] >= '0' && *argv[i] <= '9')
-{
-add += atoi(argv[i]);
-}
-else
-{
-error = 1;
-break;
-}
-}
-}
-else
-{
-printf("%d\n", argc - 1);
-return (0);
-}
-
-if (error == 0)
-{
-printf("%d\n", add);
-return (0);
-}
-else
-{
-printf("%s\n", errorText);
-return (1);
-}
+    for (i = 1; i < argc; i++)
+    {
+        for (j = 0; argv[i][j] != '\0'; j++)
+        {
+            if (argv[i][j] > '9' || argv[i][j] < '0')
+            {
+                printf("%s\n", "Error");
+                return (1);
+            }   
+        }
+    }    
+    for (k = 1; k < argc; k++)
+    {
+        res = atoi(argv[k]);
+        add += res;
+    }
+    printf("%d\n", add);
+    return (0);
 }
