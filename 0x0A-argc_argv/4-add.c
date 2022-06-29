@@ -9,9 +9,10 @@
  */
 int main(int argc, char *argv[])
 {
-    int add;
     int i;
-    int error;
+    int add = 0;
+    int error = 0;
+    char errorText[] = "Error";
 
     if (argc > 1)
     {
@@ -30,7 +31,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        printf("0\n");
+        printf("%d\n", argc - 1);
         return (0);
     }
     
@@ -41,7 +42,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        printf("Error\n");
+        printf("%s\n", errorText);
         return (1);
     }
 }
