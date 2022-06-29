@@ -27,14 +27,12 @@ while (s2[j])
 {
 j++;
 }
-
 l = i + j;
 s = (char *)malloc(sizeof(char) * l + 1);
 if (s == NULL)
 {
 return (NULL);
 }
-
 j = 0;
 while (k < l)
 {
