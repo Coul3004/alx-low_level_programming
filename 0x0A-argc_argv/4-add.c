@@ -25,6 +25,7 @@ add += atoi(argv[i]);
 else
 {
 error = 1;
+break;
 }
 }
 }
