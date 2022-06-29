@@ -13,9 +13,9 @@ int i;
 int add;
 int error;
 add = 0;
-if (argc <= 1)
+if (argc < 2)
 {
-printf("0\n");
+printf("%d\n", argc - 1);
 }
 else
 {
