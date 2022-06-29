@@ -13,7 +13,7 @@ int i;
 int add;
 int error;
 add = 0;
-if (argc < 2)
+if (argc <= 1)
 {
 printf("0\n");
 }
