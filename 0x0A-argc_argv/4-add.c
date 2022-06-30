@@ -20,9 +20,9 @@ if (argv[i][j] > '9' || argv[i][j] < '0')
 {
 printf("%s\n", "Error");
 return (1);
-}   
 }
-}    
+}
+}
 for (k = 1; k < argc; k++)
 {
 res = atoi(argv[k]);
