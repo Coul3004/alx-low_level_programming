@@ -19,11 +19,7 @@ else
 printf("Name: %s\n", d->name);
 }
 
-if (d->age == '\0')
-{
-printf("Age: (nil)");
-}
-else
+if (d->age != '\0')
 {
 printf("Age: %f\n", d->age);
 }
